@@ -2,7 +2,7 @@ using LeaveManagement.API.IntegrationTests.Support;
 using LeaveManagement.Application.Features.Employees.Commands.CreateEmployee;
 using LeaveManagement.Application.Features.Employees.Commands.UpdateEmployee;
 using LeaveManagement.Application.Responses;
-using LeaveManagement.Persistence.Data;
+using LeaveManagement.Infrastructure.Data;
 using LeaveManagement.Tests.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;

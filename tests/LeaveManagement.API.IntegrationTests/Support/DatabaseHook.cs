@@ -1,4 +1,4 @@
-﻿using LeaveManagement.Persistence.Data;
+﻿using LeaveManagement.Infrastructure.Data;
 using Microsoft.Extensions.DependencyInjection;
 using Npgsql;
 using Respawn;

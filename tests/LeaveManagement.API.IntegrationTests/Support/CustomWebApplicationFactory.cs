@@ -1,5 +1,5 @@
 ﻿using LeaveManagement.Domain.Contracts.Services;
-using LeaveManagement.Persistence.Data;
+using LeaveManagement.Infrastructure.Data;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;

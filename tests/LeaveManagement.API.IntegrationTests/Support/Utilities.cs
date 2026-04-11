@@ -1,6 +1,6 @@
 ﻿using LeaveManagement.Domain.Entities;
 using LeaveManagement.Domain.Enumerations;
-using LeaveManagement.Persistence.Data;
+using LeaveManagement.Infrastructure.Data;
 
 namespace LeaveManagement.API.IntegrationTests.Support;
 
