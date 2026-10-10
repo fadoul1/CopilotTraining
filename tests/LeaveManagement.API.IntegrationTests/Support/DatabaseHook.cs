@@ -10,7 +10,7 @@ internal class DatabaseHook(CustomWebApplicationFactory<Program> factory)
 {
     private static Respawner? s_respawner;
     private static bool s_databaseInitialized;
-    private static readonly Lock Lock = new();
+    private static readonly object Lock = new();
 
     [BeforeScenario(Order = 1)]
     public async Task BeforeScenario()

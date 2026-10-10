@@ -1,6 +1,6 @@
 # Training Labs — Advanced GitHub Copilot Mastery
 
-**Project:** Leave Management API (.NET 10 / C# 14)
+**Project:** Leave Management API (.NET 8 / C# 12)
 **Total Duration:** 2 Days — ~7 Hours
 
 ---
@@ -34,16 +34,16 @@
 
 Before attending, ensure:
 
-- [ ] **.NET 10 SDK** installed — `dotnet --version` should show `10.x.x`
+- [ ] **.NET 8 SDK** installed — `dotnet --version` should show `8.x.x`
 - [ ] **Docker Desktop** running — required for integration tests (Testcontainers)
 - [ ] **VS Code** with **GitHub Copilot Chat** extension (agent mode enabled)
 - [ ] **EF Core tools** — `dotnet tool install --global dotnet-ef`
 
 Quick check:
 ```bash
-dotnet --version      # 10.x.x
+dotnet --version      # 8.x.x
 docker --version      # 20.x or later
-dotnet ef --version   # 10.x.x
+dotnet ef --version   # 8.x.x
 ```
 
 ---

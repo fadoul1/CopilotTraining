@@ -35,6 +35,10 @@ public static class StartupExtensions
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger(options => options.RouteTemplate = "openapi/{documentName}.json");
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/openapi/v1.json", "Leave Management API v1");
+            });
             app.MapScalarApiReference();
         }
 
